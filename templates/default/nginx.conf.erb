@@ -23,7 +23,7 @@ upstream unicorn {
   access_log /var/log/nginx/access.log;
   error_log /var/log/nginx/error.log;
 
-  root /var/www/nginx/myapp/current;
+  root /var/www/myapp/current;
 
   client_max_body_size 100m;
   error_page 404 /404.html;
