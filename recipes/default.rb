@@ -9,7 +9,7 @@
 
 
 template "nginx.conf" do
-        path "/etc/nginx/conf.d/myapp.conf"
+        path "/etc/nginx/nginx.conf"
         source "nginx.conf.erb"
         owner "root"
         group "root"
