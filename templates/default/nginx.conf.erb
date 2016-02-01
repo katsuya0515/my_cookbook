@@ -1,9 +1,8 @@
-upstream unicorn {
+upstream unicorn{}
   server unix:/tmp/unicorn.sock
 }
-
 server {
-  listen 3000:;
+  listen 3000;
   server_name localhost;
 
   access_log /var/log/nginx/sample_access.log;
